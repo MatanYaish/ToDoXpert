@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background: url("Ecom'sPics/todo.jpg");
+}
+
+.container {
+  margin: auto;
+  padding: 10px;
+  max-width: 800px;
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  background: none;
+  border-bottom: 2px solid #000;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.task {
+  width: 100%;
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.icon {
+  float: right;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.complete .task {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.complete .task {
+  color: rgb(250, 164, 3);
+}
+
+.titlecomplete {
+  color: rgb(251, 165, 6);
+}
+.not-complete {
+  color: rgb(187, 63, 183);
+}
